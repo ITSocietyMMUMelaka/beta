@@ -1,13 +1,12 @@
 language: go
-sudo: true
-dist: trusty
+go:
+  - master
 
 install:
-  - sudo apt-get --yes install snapd
-  - sudo snap install hugo
-  - rm -rf prod || exit 0
+  - go get github.com/gohugoio/hugo
 
 script:
+  - rm -rf prod || exit 0
   - cd site
   - hugo 
 
