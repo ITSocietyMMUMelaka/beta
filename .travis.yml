@@ -6,9 +6,11 @@ install:
   - go get github.com/gohugoio/hugo
 
 script:
-  - rm -rf prod || exit 0
+  - ls
   - cd site
+  - ls
   - hugo 
+  - cd ..
 
 deploy:
   provider: pages
