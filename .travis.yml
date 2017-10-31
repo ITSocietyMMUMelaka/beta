@@ -1,16 +1,13 @@
+sudo: true
 dist: trusty
-sudo: required
-
-addons:
-  apt:
-    packages:
-    - hugo
 
 install:
+  - sudo apt-get --yes install snapd
+  - sudo snap install hugo
   - rm -rf prod || exit 0
 
 script:
-  - hugo
+  - /snap/bin/hugo
 
 deploy:
   provider: pages
