@@ -9,7 +9,7 @@ install:
 
 script:
   - cd site
-  - /snap/bin/hugo 
+  - hugo 
 
 deploy:
   provider: pages
