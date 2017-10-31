@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "IT Society, MMU Melaka"
+theme = "hugo-smpl-theme"
+publishDir = "../prod"
+
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[params]
+  name = "IT Society, MMU Melaka"
+  description = "IT Society, MMU Melaka"
+
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  [params.logo]
+    enable = false
+
+  [params.header]
+    enable = true
+    title = "IT Society,<br>MMU Melaka."
+
+  [params.quote]
+    enable = true
+    text = "We code your future."
+
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "https://www.facebook.com/ITSociety.Club/"
+
+  [[params.social]]
+    title = "GitHub"
+    icon = "fa-github"
+    link = "https://github.com/ITSocietyMMUMelaka"
