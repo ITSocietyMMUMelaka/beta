@@ -6,9 +6,7 @@ install:
   - go get github.com/gohugoio/hugo
 
 script:
-  - ls
   - cd site
-  - ls
   - hugo 
   - cd ..
 
