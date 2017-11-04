@@ -1,4 +1,6 @@
 # IT Society, MMU Melaka
+[![Build Status](https://travis-ci.org/ITSocietyMMUMelaka/beta.svg?branch=master)](https://travis-ci.org/ITSocietyMMUMelaka/beta)
+
 This is the beta site repo for IT Society, MMU Melaka.
 
 # Development
