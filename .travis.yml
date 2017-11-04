@@ -12,7 +12,7 @@ script:
   - cd site
   - hugo 
   - cd ..
-  - lftp -e "open sftp://$USER:$PASSWORD@$SITE; mirror --verbose --reverse prod /$TARGET;bye;"
+  - lftp -e "open sftp://$USERNAME:$PASSWORD@$SITE; mirror --verbose --reverse prod /$TARGETFOLDER;bye;"
 
 deploy:
   provider: pages
