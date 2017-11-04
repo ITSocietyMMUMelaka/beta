@@ -1,6 +1,11 @@
 language: go
 go:
   - master
+  
+addons:
+  apt:
+    pacakges:
+    - lftp
 
 install:
   - go get github.com/gohugoio/hugo
@@ -9,6 +14,7 @@ script:
   - cd site
   - hugo 
   - cd ..
+  - lftp -e "set sftp:auto-confirm yes; open sftp://$USER:$PASSWORD@$SITE; mirror --verbose --reverse prod /$TARGET;bye;"
 
 deploy:
   provider: pages
