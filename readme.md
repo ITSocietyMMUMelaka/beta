@@ -4,7 +4,7 @@
 This is the beta site repo for IT Society, MMU Melaka.
 
 | Host        | URL                                        |
-| ----------: | ------------------------------------------ |
+| -----------:|:------------------------------------------ |
 | GitHub      | https://itsocietymmumelaka.github.io/beta/ |
 | Self-hosted | https://beta.itsociety.club                |
 # Development
