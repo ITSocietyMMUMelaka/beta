@@ -4,7 +4,7 @@ go:
 
 before_install:
   - sudo apt-get install lftp
-  
+
 install:
   - go get github.com/gohugoio/hugo
 
@@ -12,7 +12,7 @@ script:
   - cd site
   - hugo 
   - cd ..
-  - lftp -e "set sftp:auto-confirm yes; open sftp://$USER:$PASSWORD@$SITE; mirror --verbose --reverse prod /$TARGET;bye;"
+  - lftp -e "open sftp://$USER:$PASSWORD@$SITE; mirror --verbose --reverse prod /$TARGET;bye;"
 
 deploy:
   provider: pages
