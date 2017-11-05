@@ -1,0 +1,3 @@
+[submodule "site/themes/after-dark"]
+	path = site/themes/after-dark
+	url = git@github.com:ITSocietyMMUMelaka/after-dark.git
