@@ -7,7 +7,7 @@ git:
 
 before_install:
   - sudo apt-get install lftp
-  - git config --file=.gitmodules submodule.site/themes/after-dark.url https://github.com/ITSocietyMMUMelaka/beta.git
+  - git config --file=.gitmodules submodule.site/themes/after-dark.url https://github.com/ITSocietyMMUMelaka/after-dark.git
   - git submodule update --init --recursive
 
 install:
