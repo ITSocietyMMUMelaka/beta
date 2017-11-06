@@ -2,9 +2,13 @@ language: go
 go:
   - master
 
+git:
+ submodules: false
+
 before_install:
   - sudo apt-get install lftp
   - git config --file=.gitmodules submodule.site/themes/after-dark.url https://github.com/ITSocietyMMUMelaka/beta.git
+  - git submodule update --init --recursive
 
 install:
   - go get github.com/gohugoio/hugo
