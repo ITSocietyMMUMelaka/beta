@@ -1,0 +1,20 @@
+{{ define "title" -}}
+  {{ .Site.Title }}
+{{- end }}
+{{ define "header" }}
+{{ end }}
+{{ define "main" }}
+      <div id="termynal" data-termynal data-termynal-typeDelay="40" data-termynal-lineDelay="700">
+          <span data-ty="input" data-ty-prompt="▲ ~/itsoc (beta)">./welcome</span>
+          <span data-ty>Welcome to IT Society, MMU Melaka.</span>
+          {{- $art := index (shuffle .Site.Data.asciiArts.arts) 1 -}}
+          {{ range $art.lines}}
+          <span data-ty="input" data-ty-delay="0" data-ty-typeDelay="0" data-ty-prompt="►" data-ty-compact-line>{{- . | safeHTML }}</span>
+          {{- end -}}
+      </div>
+      <script> var term = new Termynal('#termynal');</script>
+      
+{{ end }}
+{{ define "footer" }}
+  {{ partial "powered-by.html" . }}
+{{ end }}
