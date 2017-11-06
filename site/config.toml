@@ -1,42 +1,48 @@
-baseURL = "http://example.org/"
+baseURL = "http://beta.itsociety.club/"
 languageCode = "en-us"
 title = "IT Society, MMU Melaka"
-theme = "hugo-smpl-theme"
+
 publishDir = "../prod"
 
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+pygmentsCodeFences = true # Enable code fences
+pygmentsCodefencesGuessSyntax = true # Guess code fence's language
+pygmentsUseClasses = true # Use stylesheets from pygments
+enableGitInfo = true
+
+# Theme specific configuration
+theme = "after-dark"
+paginate = 11
+
+enableRobotsTXT = true # Suggested, enable robots.txt file
+googleAnalytics = "" # Optional, add tracking Id for analytics
+disqusShortname = "" # Optional, add Disqus shortname for comments
+SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 
 [params]
-  name = "IT Society, MMU Melaka"
-  description = "IT Society, MMU Melaka"
+  description = "Beta site for ITSociety MMU Melaka." # Suggested, controls default description meta
+  author = "IT Society" # Optional, controls author name display on posts
+  hide_author = false # Optional, set true to hide author name on posts
+  show_menu = true # Optional, set true to enable section menu
+  powered_by = false # Optional, set false to disable credits
+  images = [
+    "https://source.unsplash.com/category/technology/2000x1322"
+  ] # Suggested, controls default Open Graph images
+  theme_variant = "hack standard" # Optional, for use to overriding default theme
+  use_pygements_css = true # Use stylesheets from pygments
 
-  [params.background]
-    image = "assets/img/bg.jpg"
+[params.seo]
+ disable_bpg = true
 
-    [params.background.fade]
-      enable = true
-      speed = 500
+# Main menu
+[[menu.main]]
+ name = "Home"
+ weight = 10
+ identifier = "home"
+ url = "/"
 
-  [params.logo]
-    enable = false
-
-  [params.header]
-    enable = true
-    title = "IT Society,<br>MMU Melaka."
-
-  [params.quote]
-    enable = true
-    text = "We code your future."
-
-  [params.social_icons]
-    enable = true
-
-  [[params.social]]
-    title = "Facebook"
-    icon = "fa-facebook"
-    link = "https://www.facebook.com/ITSociety.Club/"
-
-  [[params.social]]
-    title = "GitHub"
-    icon = "fa-github"
-    link = "https://github.com/ITSocietyMMUMelaka"
+[[menu.main]]
+ name = "Posts"
+ weight = 20
+ identifier = "post"
+ url = "/post/"
