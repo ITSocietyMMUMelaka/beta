@@ -9,7 +9,7 @@ before_install:
   - sudo apt-get install lftp
   - git config --file=.gitmodules submodule.site/themes/after-dark.url https://github.com/ITSocietyMMUMelaka/after-dark.git
   - git submodule update --init --recursive
-  - .githooks/post-commit
+  - sh scripts/post-commit.sh
 
 install:
   - go get github.com/gohugoio/hugo
