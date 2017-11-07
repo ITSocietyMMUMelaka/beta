@@ -4,7 +4,7 @@
         <p data-term data-term-prompt="▶️ ~/itsoc (beta) ">./welcome</p>
         <p data-term date-term-output>Welcome 👋 to IT Society, MMU Melaka.</p>
         <p data-term date-term-output>Commit 🔥 <a href="{{ .Site.Params.github }}/commit/{{ .Site.Data.LatestGitInfo.hash }}">{{ .Site.Data.LatestGitInfo.abbreviated_hash }}</a> 🐧 {{ .Site.Data.LatestGitInfo.author }} 🕒 {{ .Site.Data.LatestGitInfo.date }} </p>
-        {{- $art := index .Site.Data.AsciiArts.arts 0 -}}
+        {{- $art := index (shuffle .Site.Data.AsciiArts.arts) 0 -}}
         {{ range $art.lines }}
         <p data-term data-term-prompt data-term-compact-line>{{- . | safeHTML }}</p>
         {{- end -}}
