@@ -11,12 +11,13 @@ This is the beta site repo for IT Society, MMU Melaka.
 
 ## Clonning
 
-Run `git clone --recursive git@github.com:ITSocietyMMUMelaka/beta.git`
+1. Run `git clone --recursive git@github.com:ITSocietyMMUMelaka/beta.git`.
+2. Run `init.bat` inside the cloned directory (`beta`) to initialize the repo.
 
 ## On Windows
 
 1. Run `start.bat` to include `hugo.exe` in the `%PATH%` variable and switch to the `/site` directory.
-2. Start using `hugo` commands
+2. Start using `hugo` commands or run `dev.bat` to start `hugo` server.
 
 > Running `hugo` will build the site to `/prod`
 >
