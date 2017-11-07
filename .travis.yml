@@ -19,7 +19,7 @@ script:
   - cd site
   - hugo 
   - cd ..
-  - lftp -e "open sftp://$USERNAME:$PASSWORD@$SITE; mirror --delete --verbose --reverse prod /$TARGETFOLDER;bye;"
+  - lftp -e "open sftp://$USERNAME:$PASSWORD@$SITE; rm -rf $TARGETFOLDER; mirror --verbose --reverse prod /$TARGETFOLDER;bye;"
 
 deploy:
   provider: pages
