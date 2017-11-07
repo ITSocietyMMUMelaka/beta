@@ -27,7 +27,3 @@ This is the beta site repo for IT Society, MMU Melaka.
 ## With Visual Studio Code
 
 1. Install `markdownlint` <https://github.com/DavidAnson/vscode-markdownlint> for a consistent markdown style across the repo.
-
-# Todos
-
-- [] Add more details
