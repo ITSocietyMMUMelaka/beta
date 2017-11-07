@@ -30,6 +30,7 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   ] # Suggested, controls default Open Graph images
   theme_variant = "hack standard" # Optional, for use to overriding default theme
   use_pygements_css = true # Use stylesheets from pygments
+  github = "https://github.com/ITSocietyMMUMelaka/beta" # Used for linking commit hash
 
 [params.seo]
  disable_bpg = true

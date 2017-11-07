@@ -1,0 +1,42 @@
+[data-term-container] {
+  padding: 10%;
+  font-family: "Ubuntu Mono";
+}
+
+[data-term-container] [data-term] {
+  margin: 0;
+  white-space: pre;  
+}
+
+[date-term-output]:before {
+  content: "🔊 ";
+}
+
+[data-term-prompt]:before {
+  content: attr(data-term-prompt);
+  color: #ff2e88;
+}
+
+[data-term-compact-line] {
+  line-height: 80%;
+}
+
+[data-term-compact-line]:before {
+  content: "|| ";
+}
+[data-term] a:after {
+  content: "";
+}
+
+[data-term-blink] {
+  animation: 1s blink ease-in-out infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
