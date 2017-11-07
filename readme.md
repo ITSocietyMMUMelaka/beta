@@ -13,7 +13,6 @@ This is the beta site repo for IT Society, MMU Melaka.
 ## Clonning
 
 1. Run `git clone --recursive git@github.com:ITSocietyMMUMelaka/beta.git`.
-2. Run `init.bat` inside the cloned directory (`beta`) to initialize the repo.
 
 ## On Windows
 
