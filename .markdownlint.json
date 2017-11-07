@@ -1,0 +1,9 @@
+{
+    "default": true,
+    "MD002": false,
+    "MD013": false,
+    "MD003": { "style": "atx" },
+    "MD026": { "punctuation": ".,;" },
+    "MD029": { "style": "ordered" },
+    "MD041": false
+}

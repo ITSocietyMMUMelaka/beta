@@ -7,6 +7,7 @@ This is the beta site repo for IT Society, MMU Melaka.
 | -----------:|:------------------------------------------ |
 | GitHub      | https://itsocietymmumelaka.github.io/beta/ |
 | Self-hosted | https://beta.itsociety.club                |
+
 # Development
 
 ## Clonning
@@ -23,5 +24,10 @@ This is the beta site repo for IT Society, MMU Melaka.
 >
 > Running `dev.bat` will build the site to `/dev` (with drafts) and start hugo server
 
+## With Visual Studio Code
 
-> Todo: Add more details
+1. Install `markdownlint` <https://github.com/DavidAnson/vscode-markdownlint> for a consistent markdown style across the repo.
+
+# Todos
+
+- [] Add more details
