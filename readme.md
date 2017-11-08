@@ -19,6 +19,8 @@ This is the beta site repo for IT Society, MMU Melaka.
     - [The `<SCOPE>`](#the-scope)
     - [The `<SUBJECT>`](#the-subject)
     - [Examples](#examples)
+- [Travis CI](#travis-ci)
+    - [Note](#note)
 
 ## Cloning
 
