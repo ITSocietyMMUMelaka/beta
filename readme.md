@@ -98,3 +98,11 @@ A short and concise description of the change:
 | docs: add readme.          | docs: add readme                    | Don't end with full stop                                                                                                                            |
 | docs: update readme        | docs(readme): fix typo              | Try to be more specific with the commit message so that everyone can easily know the purpose of that commit without looking the the commit's `diff` |
 | docs: add background image | feat(layouts): add background image | At least categorize the changes properly                                                                                                            |
+
+## Travis CI
+
+Travis CI is used to build and deploy this repo. Build status can be found here: <https://travis-ci.org/ITSocietyMMUMelaka/beta>.
+
+### Note
+
+Add `[ci skip]` or `[skip ci]` to commit message (preferably inside the commit `message body` instead of it's `subject`) for skipping a build (useful when the changes do not modify the actual content of the website).
