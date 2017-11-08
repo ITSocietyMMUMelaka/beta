@@ -10,7 +10,7 @@ This is the beta site repo for IT Society, MMU Melaka.
 
 # Development
 
-## Clonning
+## Cloning
 
 1. Run `git clone --recursive git@github.com:ITSocietyMMUMelaka/beta.git`.
 
