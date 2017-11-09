@@ -7,19 +7,12 @@ git:
 
 before_install:
   - sudo apt-get install lftp
-  - git config --file=.gitmodules submodule.site/themes/after-dark.url https://github.com/ITSocietyMMUMelaka/after-dark.git
-  - git submodule update --init --recursive
-  - sh scripts/update-git-info.sh
 
 install:
   - go get github.com/gohugoio/hugo
-  - hugo version
 
 script:
-  - cd site
-  - hugo 
-  - cd ..
-  - lftp -e "open sftp://$USERNAME:$PASSWORD@$SITE; rm -rf $TARGETFOLDER; mirror --verbose --reverse prod /$TARGETFOLDER;bye;"
+  - sh scripts/deploy.sh
 
 deploy:
   provider: pages
