@@ -13,6 +13,8 @@ This is the beta site repo for IT Society, MMU Melaka.
 - [Cloning](#cloning)
 - [On Windows](#on-windows)
 - [With Visual Studio Code](#with-visual-studio-code)
+    - [Extensions](#extensions)
+    - [Tasks](#tasks)
 - [Hugo](#hugo)
 - [Git Commit Message Convention](#git-commit-message-convention)
     - [The `<TYPE>`](#the-type)
@@ -35,9 +37,20 @@ This is the beta site repo for IT Society, MMU Melaka.
 >
 > Running `dev.bat` will build the site to `/dev` (with drafts) and start hugo server
 
+**Note**: With Visual Studio Code, you can run the build task instead of running the commands manually. See [With Visual Studio Code - Tasks](#tasks) below.
+
 ## With Visual Studio Code
 
+### Extensions
+
 1. Install `markdownlint` <https://github.com/DavidAnson/vscode-markdownlint> for a consistent markdown style across the repo.
+
+### Tasks
+
+- Run Hugo server by pressing `Ctrl + Shift + P` (Command Palette) > Enter `Run Build Task`
+- Or by pressing `Ctrl + Shift + P` > Enter `Run Task` to run other task:
+    - `Run Hugo Server`
+    - `Build Hugo Site`
 
 ## Hugo
 
