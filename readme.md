@@ -65,7 +65,6 @@ The general convention for a commit message (of **oneline**) is
 ```
 <TYPE>(<SCOPE>): <SUBJECT>
 ```
-
 > Note: `(<SCOPE>)` is optional
 
 For multi-line commit message, refer to the original [Guidelines](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#commits).
