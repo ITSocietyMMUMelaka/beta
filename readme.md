@@ -8,21 +8,40 @@ This is the beta site repo for IT Society, MMU Melaka.
 | GitHub      | https://itsocietymmumelaka.github.io/beta/ |
 | Self-hosted | https://beta.itsociety.club                |
 
-# Development
 
-- [Cloning](#cloning)
-- [On Windows](#on-windows)
-- [With Visual Studio Code](#with-visual-studio-code)
-    - [Extensions](#extensions)
-    - [Tasks](#tasks)
-- [Hugo](#hugo)
-- [Git Commit Message Convention](#git-commit-message-convention)
-    - [The `<TYPE>`](#the-type)
-    - [The `<SCOPE>`](#the-scope)
-    - [The `<SUBJECT>`](#the-subject)
-    - [Examples](#examples)
-- [Travis CI](#travis-ci)
-    - [Note](#note)
+# Table Of Contents
+
+- [IT Society, MMU Melaka](#it-society-mmu-melaka)
+- [Table Of Contents](#table-of-contents)
+- [Using](#using)
+    - [Creating new post](#creating-new-post)
+    - [Using shortcode](#using-shortcode)
+- [Development](#development)
+    - [Cloning](#cloning)
+    - [On Windows](#on-windows)
+    - [With Visual Studio Code](#with-visual-studio-code)
+        - [Extensions](#extensions)
+        - [Tasks](#tasks)
+    - [Hugo](#hugo)
+    - [Git Commit Message Convention](#git-commit-message-convention)
+        - [The `<TYPE>`](#the-type)
+        - [The `<SCOPE>`](#the-scope)
+        - [The `<SUBJECT>`](#the-subject)
+        - [Examples](#examples)
+    - [Travis CI](#travis-ci)
+        - [Note](#note)
+
+# Using
+
+## Creating new post
+
+> Todo: `hugo new`, editor, `git push`, posting with GitHub Issue, etc
+
+## Using shortcode
+
+Refer to the post "[Shortcodes](site/content/post/shortcodes/index.md)" (best view through the website)
+
+# Development
 
 ## Cloning
 
