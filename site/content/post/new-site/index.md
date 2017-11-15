@@ -10,7 +10,8 @@ images = [
 ] 
 +++
 
-Hi all
+Hi all!
+
 I have spent the past few weeks prototyping the `beta` version of the ITSOC website, which is currently available here: https://beta.itsociety.club/
 
 We have a lot more things need to be done **but** before proceeding, I **sincerely** need _feedbacks_ from you guys 🙏🙏🙏 
@@ -115,3 +116,5 @@ Please give your feedback about the beta site (https://beta.itsociety.club/), an
 Thanks 😁
 
 _GaryNg_
+
+_This message is originally posted on WhatsApp group_
