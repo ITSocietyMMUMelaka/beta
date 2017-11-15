@@ -20,7 +20,10 @@ script:
   - hugo 
   - cd ..
   - lftp -e "open sftp://$USERNAME:$PASSWORD@$SITE; rm -rf $TARGETFOLDER; mirror --verbose --reverse prod /$TARGETFOLDER;bye;"
-  - sed -i "s/http:\/\/beta.itsociety.club\//https:\/\/itsocietymmumelaka.github.io\/beta\//g" site/config.toml
+  - cd site
+  - sed -i "s/http:\/\/beta.itsociety.club\//https:\/\/itsocietymmumelaka.github.io\/beta\//g" config.toml
+  - hugo  # second build for GitHub pages  
+  - cd ..
 
 deploy:
   provider: pages
