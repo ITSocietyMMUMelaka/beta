@@ -84,7 +84,7 @@
 	"hack.css alert multiline with markdown": {
 		"prefix": "alertmd",
 		"body": [
-			"{{% hackcss-alert type=\"${1|success,info,warning,error|}\"  %}}",
+			"{{% hackcss-alert type=\"${1|success,info,warning,error|}\" %}}",
 			"${2:!content}",
 			"{{% /hackcss-alert %}}$0"
 		],
