@@ -1,0 +1,158 @@
+{
+	"gist": {
+		"prefix": "gist",
+		"body": "{{< gist ${1:!username} ${2:!gist id} ${3:\"${4:#filename}\" }>}}$0",
+		"description": "Hugo's gist shortcode (filename is optional)"
+	}, 
+	"highlight": {
+		"prefix": "h",
+		"body": [
+			"{{< highlight ${1:!language} >}}",
+			"${2:!code}",
+			"{{< /highlight >}}$0"
+		],
+		"description": "Hugo's highlight shortcode"
+	},
+	"instagram": {
+		"prefix": "ig"	,
+		"body": "{{< instagram ${1:!id} ${2:hidecaption }>}}$0",
+		"description": "Hugo's instragram shortcode"
+	},
+	"ref": {
+		"prefix": "ref",
+		"body": "{{< ref \"${1:file.md}${2:#${3:anchor}}\" >}}$0",
+		"description": "Hugo's ref shortcode (absolute URL)"
+	},
+	"relref": {
+		"prefix": "relref",
+		"body": "{{< relref \"${1:file.md}${2:#${3:anchor}}\" >}}$0",
+		"description": "Hugo's ref shortcode (relative URL)"
+	},
+	"speakerdeck": {
+		"prefix": "speakerdeck",
+		"body": "{{< speakerdeck ${1:!id} >}}$0",
+		"description": "Hugo's speakerdeck shortcode"
+	},
+	"tweet": {
+		"prefix": "tweet",
+		"body": "{{< tweet ${1:!id} >}}$0",
+		"description": "Hugo's tweet shortcode"
+	},
+	"vimeo": {
+		"prefix": "vimeo",
+		"body": "{{< vimeo ${1:!id} >}}$0",
+		"description": "Hugo's viemo shortcode"
+	},
+	"youtube": {
+		"prefix": "youtube",
+		"body": "{{< youtube id=\"${1:!id}\" ${2:autoplay=\"true\" }>}}$0",
+		"description": "Hugo's youtube shortcode"
+	},
+	"more": {
+		"prefix": "more",
+		"body": "<!--more-->",
+		"description": "Separator"
+	},
+	// After Dark's custom shortcode
+	"figure": {
+		"prefix": "fig",
+		"body": "{{< figure src=\"$1\" ${2:caption=\"$3\" }${4:title=\"$5\" }${6:link=\"$7\" }>}}$0",
+		"description": "After-dark's figure shortcode (title: bold text, caption: normal text, link: link to the image"
+	},
+	"blockquote": {
+		"prefix": "bq",
+		"body": [
+			"{{< blockquote cite=\"${1:!cite}\" ${2:citelink=\"${3:#link}\" }>}}",
+			"${4:!content}",
+			"{{< /blockquote >}}$0"
+		]
+	},
+	"hack.css alert": {
+		"prefix": "alert",
+		"body": "{{< hackcss-alert type=\"${1|success,info,warning,error|}\" text=\"${2:!text}\" />}}$0",
+		"description": "alert component from hack.css"
+	},
+	"hack.css alert multiline": {
+		"prefix": "alertm",
+		"body": [
+			"{{< hackcss-alert type=\"${1|success,info,warning,error|}\" >}}",
+			"${2:!content}",
+			"{{< /hackcss-alert >}}$0"
+		],
+		"description": "alert component from hack.css"
+	},
+	"hack.css alert multiline with markdown": {
+		"prefix": "alertmd",
+		"body": [
+			"{{% hackcss-alert type=\"${1|success,info,warning,error|}\"  %}}",
+			"${2:!content}",
+			"{{% /hackcss-alert %}}$0"
+		],
+		"description": "alert component from hack.css"
+	},
+	"hack.css button": {
+		"prefix": "button",
+		"body": "{{< hackcss-button text=\"${1:!text}\" type=\"${2|default,primary,success,info,warning,error|}\" ${3:isghost=\"${4:true}\" }${5:isblock=\"${6:true}\" }/>}}$0",
+		"description": "button component from hack.css"
+	},
+	"hack.css button multiline": {
+		"prefix": "buttonm",
+		"body": [
+			"{{< hackcss-button type=\"${1|default,primary,success,info,warning,error|}\" ${2:isghost=\"${3:true}\" }${4:isblock=\"${5:true}\" }>}}",
+			"${6:!content}",
+			"{{< /hackcss-button >}}$0"
+		],
+		"description": "button component from hack.css"
+	},
+	"hack.css button multiline with markdown": {
+		"prefix": "buttonmd",
+		"body": [
+			"{{% hackcss-button type=\"${1|default,primary,success,info,warning,error|}\" ${2:isghost=\"${3:true}\" }${4:isblock=\"${5:true}\" }%}}",
+			"${6:!content}",
+			"{{% /hackcss-button %}}$0"
+		],
+		"description": "button component from hack.css"
+	},
+	"hack.css button group": {
+		"prefix": "buttongroup",
+		"body": [
+			"{{< hackcss-buttongroup >}}",
+			"\t${1:!buttons}",
+			"{{< /hackcss-buttongroup >}}$0"
+		],
+		"description": "button group component from hack.css"
+	},
+	"hack.css card": {
+		"prefix": "card",
+		"body": "{{< hackcss-card header=\"${1:!title}\" text=\"${2:!text}\" />}}$0",
+		"description": "card component from hack.css"
+	},
+	"hack.css card multiline": {
+		"prefix": "cardm",
+		"body": [
+			"{{< hackcss-card header=\"${1:!title}\" >}}",
+			"${2:!content}",
+			"{{< /hackcss-card >}}"
+		],
+		"description": "card component from hack.css"
+	},
+	"hack.css card multiline with markdown": {
+		"prefix": "cardmd",
+		"body": [
+			"{{% hackcss-card header=\"${1:!title}\" %}}",
+			"${2:!content}",
+			"{{% /hackcss-card %}}"
+		],
+		"description": "card component from hack.css"
+	},
+	"hack.css progress bar": {
+		"prefix": "progressbar",
+		"body": "{{< hackcss-progress value=\"${1:50}\" ${2:showprecent=\"${3:true}\" }${4:filltext=\"${5:Loading}\" }>}}$0",
+		"description": "progress bar component from hack.css"
+	},
+	"hack.css loading component": {
+		"prefix": "loading",
+		"body": "{{< hackcss-throbber >}}$0",
+		"description": "default loading component from hack.css"
+	}
+}
