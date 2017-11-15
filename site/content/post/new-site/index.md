@@ -85,7 +85,7 @@ Yes because you need to at least have a GitHub account and some knowledge on `ma
 No because you can create a new GitHub account in seconds and `markdown` is even easier than html to learn (you can even use WYSIWYG editor provided by github)
 
 {{% hackcss-alert type="success" %}}
-PS: if you know how to do this kind of thing in Whatsapp: **bold** _italics_ ~strikethrough~ `monospace`, you are **already** using `markdown` (well, at least a flavour of `markdown`). 
+PS: if you know how to do this kind of thing in Whatsapp: **bold** _italics_ ~~strikethrough~~ `monospace`, you are **already** using `markdown` (well, at least a flavour of `markdown`). 
 
 Easy right?
 For more `markdown`, check out this `markdown cheatsheet` https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
