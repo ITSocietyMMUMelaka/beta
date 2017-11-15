@@ -1,0 +1,14 @@
+{{ $context := index . "context" }}
+{{ $section := index . "section" | default "post" }}
+{{ $title := index . "title" | default ($section | pluralize | title) }}
+{{ $count := index . "count" | default 3}}
+
+<section>
+    <header>
+        <h1>{{ $title }}</h1>
+    </header>
+    {{ range (first $count (where $context.Data.Pages "Type" $section)) }}
+    {{ partial "page-summary.html" . }}
+    {{ end }}
+    <nav class="readmore"><a href={{ $section | relURL }} itemprop="url">Read More&nbsp;&raquo;</a></nav>    
+</section>

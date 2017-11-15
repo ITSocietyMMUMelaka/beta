@@ -13,21 +13,9 @@
     <h1>Upcoming Events</h1>
   </header>
 </section>
-<section>
-  </header>
-    <h1>Posts</h1>
-  </header>
-  {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
-  <article>
-    <header>
-      <h2 itemprop="name"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      {{ if eq .Type "post" }}
-      <p>{{ partial "post/meta.html" . }}</p>
-      {{ end }}
-    </header>
-  </article>
-  {{ end }}
-</section>
+
+{{ partial "section.html" (dict "context" . "section" "post" "title" "Posts" "count" 5) }}
+
 <section>
   </header>
     <h1>Contact Us</h1>
