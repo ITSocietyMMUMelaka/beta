@@ -6,8 +6,6 @@ draft = false
 toc = false
 category = "Tutorial"
 tags = ["hugo", "shortcode", "vscode"]
-images = [
-] 
 +++
 
 Documentation on shortcode can be found here: <https://gohugo.io/content-management/shortcodes/#readout>
@@ -25,7 +23,7 @@ Some example shortcodes:
     Stuff to `process` in the *center*.
 {{%/* /mdshortcode */%}}
 ```
-
+<!--more-->
 ## Visual Studio Code Snippets
 
 Almost all of the shortcodes provided by `hugo` and `after-dark` (the theme) has its own snippets in Visual Studio Code for your convenience. You can import and use the code snippets via:
