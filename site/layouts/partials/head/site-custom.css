@@ -40,3 +40,7 @@
     color: black;
   }
 }
+
+h1 a {
+  border-bottom: 0;
+}

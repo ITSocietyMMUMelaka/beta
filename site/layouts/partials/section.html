@@ -5,10 +5,9 @@
 
 <section>
     <header>
-        <h1>{{ $title }}</h1>
+        <h1><a href={{ $section | relURL }}>{{ $title }}&nbsp;&raquo;</a></h1>
     </header>
     {{ range (first $count (where $context.Data.Pages "Type" $section)) }}
     {{ partial "page-summary.html" . }}
     {{ end }}
-    <nav class="readmore"><a href={{ $section | relURL }} itemprop="url">Read More&nbsp;&raquo;</a></nav>    
 </section>
