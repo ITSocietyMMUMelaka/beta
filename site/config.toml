@@ -11,7 +11,7 @@ isCJKLanguage = true
 
 # Theme specific configuration
 theme = "after-dark"
-paginate = 11
+paginate = 10
 
 enableRobotsTXT = true # Suggested, enable robots.txt file
 googleAnalytics = "" # Optional, add tracking Id for analytics
