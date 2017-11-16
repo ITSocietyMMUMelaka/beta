@@ -7,7 +7,7 @@ publishDir = "../prod"
 pygmentsCodeFences = true # Enable code fences
 pygmentsCodefencesGuessSyntax = true # Guess code fence's language
 pygmentsUseClasses = true # Use stylesheets from pygments
-enableGitInfo = true
+isCJKLanguage = true
 
 # Theme specific configuration
 theme = "after-dark"
