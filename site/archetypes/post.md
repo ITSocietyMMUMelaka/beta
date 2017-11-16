@@ -1,5 +1,5 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
+title = "{{ replace (replaceRE "^(?:.*(?:/|\\\\))(.*)(?:/|\\\\)$" "$1" .File.Dir) "-" " " | title }}"
 date = {{ .Date }}
 description = "" 
 draft = true
@@ -9,3 +9,7 @@ tags = []
 images = [
 ] 
 +++
+
+
+
+<!--more-->
