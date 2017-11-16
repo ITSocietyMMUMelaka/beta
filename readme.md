@@ -14,7 +14,9 @@ This is the beta site repo for IT Society, MMU Melaka.
 - [IT Society, MMU Melaka](#it-society-mmu-melaka)
 - [Table Of Contents](#table-of-contents)
 - [Using](#using)
+    - [Content Organization Strategy](#content-organization-strategy)
     - [Creating new post](#creating-new-post)
+        - [Creating new post with `post.bat`](#creating-new-post-with-postbat)
     - [Using shortcode](#using-shortcode)
 - [Development](#development)
     - [Cloning](#cloning)
@@ -33,13 +35,44 @@ This is the beta site repo for IT Society, MMU Melaka.
 
 # Using
 
+## Content Organization Strategy
+
+We are using `Structure B` as stated in this Hugo discussion: [Discussion: Content Organization Best Practice](https://discourse.gohugo.io/t/discussion-content-organization-best-practice/6360/3)
+
+Besically, all assets related to a post/other content is kept together (instead of separating them in the `static` folder).
+
 ## Creating new post
 
 > Todo: `hugo new`, editor, `git push`, posting with GitHub Issue, etc
 
+### Creating new post with `post.bat`
+
+After running `start.bat` on CMD, you can use `post.bat` to quickly create a new post in the directory `post\<TITLE-SLUG>\index.md`
+
+```
+USAGE: post.bat title-slug
+```
+
+For more usage info, run `new.bat`, which is a generic version of `post.bat`
+
+```
+USAGE: new.bat section slug
+
+Create a new hugo content as
+   /<SECTION>/<TITLE-SLUG>/index.md
+
+Slugify:
+1. Replace all spaces with '-'
+2. Multiple spaces will only have one '-'
+3. No '-' at the start and end of the slug
+4. Convert everything to lowercase
+
+   Example:  "  New  Site   " becomes "new-site"
+```
+
 ## Using shortcode
 
-Refer to the post "[Shortcodes](site/content/post/shortcodes/index.md)" (best view through the website)
+Refer to the post "[Shortcodes](site/content/post/shortcodes/index.md)" (best view through the [website](https://beta.itsociety.club/post/shortcodes/))
 
 # Development
 
