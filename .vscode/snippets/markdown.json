@@ -54,11 +54,12 @@
 		"description": "Separator"
 	},
 	// After Dark's custom shortcode
-	"figure": {
-		"prefix": "fig",
-		"body": "{{< figure src=\"$1\" ${2:caption=\"$3\" }${4:title=\"$5\" }${6:link=\"$7\" }>}}$0",
-		"description": "After-dark's figure shortcode (title: bold text, caption: normal text, link: link to the image"
-	},
+
+	// "figure": {
+	// 	"prefix": "fig",
+	// 	"body": "{{< figure src=\"$1\" ${2:caption=\"$3\" }${4:title=\"$5\" }${6:link=\"$7\" }>}}$0",
+	// 	"description": "After-dark's figure shortcode (title: bold text, caption: normal text, link: link to the image"
+	// },
 	"blockquote": {
 		"prefix": "bq",
 		"body": [
@@ -154,5 +155,39 @@
 		"prefix": "loading",
 		"body": "{{< hackcss-throbber >}}$0",
 		"description": "default loading component from hack.css"
-	}
+	}, 
+	// PhotoSwipe 
+	"load photoswipe": {
+		"prefix": "lp",
+		"body": "{{< load-photoswipe >}}$0",
+		"description": "load photoswipe"
+	},
+	"photoswipe figure with basic options": {
+		"prefix": "fg",
+		"body": "{{< figure link=\"${1:!hi-res image}\" caption=\"${2:!caption}\" ${3:caption-position=\"${4:bottom}\" }${5:caption-effect=\"${6:slide}\" }>}}$0",
+		"description": "figure that support photoswipe"
+	},
+	"photoswipe figure with all options": {
+		"prefix": "fga",
+		"body": "{{< figure link=\"${1:!hi-res image}\" caption=\"${2:!caption}\" ${3:caption-position=\"${4|bottom,center,none|}\" }${5:caption-effect=\"${6|slide,fade,none|}\" }${7:src=\"${8:thumbnail}\" }${9:class=\"no-photoswipe\" }>}}$0",
+		"description": "figure that support photoswipe"
+	},
+	"photoswipe gallery": {
+		"prefix": "g",
+		"body": [
+			"{{< gallery >}}",
+			"\t${1:!figures}",
+			"{{< /gallery >}}$0"
+		],
+		"description": "gallery from photoswipe"
+	},
+	"photoswipe gallery with all options": {
+		"prefix": "ga",
+		"body": [
+			"{{< gallery ${1:caption-position=\"${2|bottom,center,none|}\" }${3:caption-effect:\"${4|slide,fade,none|}\" }${5:hover-effect=\"${6|zoom,grow,shrink,slideup,slidedown,none|}\" }${7:hover-transition=\"none\" }>}}",
+			"\t${8:!figures}",
+			"{{< /gallery >}}$0"
+		],
+		"description": "gallery from photoswipe"
+	},
 }
