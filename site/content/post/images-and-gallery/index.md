@@ -8,6 +8,7 @@ toc = false
 category = "tutorial"
 tags = []
 images = [
+    "/post/images-and-gallery/00.png"
 ] 
 +++
 
@@ -19,8 +20,6 @@ This is a simple test of using [hugo-easy-gallery](https://github.com/liwenyip/h
 
 > `lp`
 
-
-{{< load-photoswipe >}}
 You must use the shortcode `{{</* load-photoswipe */>}}` to load photoswipe.
 
 {{< load-photoswipe >}}
@@ -66,7 +65,6 @@ We have a post at `content/post/images-and-gallery/index.md`, so all the images 
     {{< figure src="02.png" caption="lorem lorem lorem lorem lorem lokjansdkjansdkjna sjkdn a" caption-effect="slide" caption-position="none" >}}
     {{< figure src="03.png" caption="lorem lorem lorem lorem lorem lokjansdkjansdkjna sjkdn a" caption-effect="fade" caption-position="bottom" >}}
 {{< /gallery >}}
-
 
 ## See Also
 
