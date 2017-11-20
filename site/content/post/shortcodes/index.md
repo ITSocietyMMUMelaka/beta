@@ -44,7 +44,7 @@ Install the [Project Snippets](https://github.com/rebornix/vscode-project-snippe
 
 > `fg`
 
-{{< figure src="https://source.unsplash.com/random/800x600" caption="Random image from unsplash" title="Random Image" link="https://source.unsplash.com/random/800x600" >}}
+{{< figure src="https://source.unsplash.com/random/800x600" caption="Random image from unsplash" link="https://source.unsplash.com/random/800x600" >}}
 
 ### blockquote
 
