@@ -1,0 +1,61 @@
+{{ $title := .Get "name" | default "Event Details" }}
+{{ $datetime := .Get "datetime" | default "TBC" }}
+{{ $venue := .Get "venue" }}
+{{ $memberFees := .Get "memberFees" }}
+{{ $nonMemberFees := .Get "nonMemberFees" }}
+{{ $regLink := .Get "registrationLink" }}
+{{ $fb := .Get "facebookLink" }}
+
+<div class="card">
+    <header class="card-header">{{ $title }}</header>
+    <div class="card-content">
+        <div class="inner">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Date & Time</td>
+                        <td>{{ $datetime }}</td>
+                    </tr>
+                    {{ with $venue }}
+                        <tr>
+                            <td>Venue</td>
+                            <td itemprop="location">{{ . }}</td>
+                        </tr>
+                    {{ end }}
+
+                    {{ with $memberFees }}
+                        <tr>
+                            <td>Fees (Member) </td>
+                            <td itemprop="price">{{ . }}</td>
+                        </tr>
+                    {{ end }}
+                    
+                    {{ with $nonMemberFees }}
+                    <tr>
+                        <td>Fees (Non-Member) </td>
+                        <td itemprop="price">{{ . }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ with $regLink }}
+                        <tr>
+                            <td>Registration</td>
+                            <td>
+                                <a itemprop="url" href="{{ . }}">{{ . }}</a>
+                            </td>
+                        </tr>
+                    {{ end }}
+
+                    {{ with $fb }}
+                    <tr>
+                        <td>Facebook</td>
+                        <td>
+                            <a itemprop="url" href="{{ . }}">{{ . }}</a>
+                        </td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
