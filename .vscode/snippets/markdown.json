@@ -190,4 +190,56 @@
 		],
 		"description": "gallery from photoswipe"
 	},
+	// Custom shortcode
+    "event details": {
+        "prefix": "ed",
+        "body": "{{< event-details name=\"${1:!event name}\" datetime=\"${2:!event date and time}\" ${3:venue=\"${4:#venue}\" }${5:memberFees=\"${6:#RM10}\" }${7:nonMemberFees=\"${8:#RM20}\" }${9:registrationLink=\"${10:#link}\" }${11:facebookLink=\"${12:#fb event link}\" }>}}$0",
+        "description": "shortcode for displaying event's details in a table"
+    },
+    "is past event": {
+        "prefix": "ipe",
+        "body": "{{< is-past-event />}}$0",
+        "description": "to indicate that the event is a past event"
+    },
+    "is past event with multiline custom content": {
+        "prefix": "ipem",
+        "body": [
+            "{{< is-past-event >}}",
+            "${1:!custom content}",
+            "{{< /is-past-event >}}$0"
+        ],
+        "description": "to indicate that the event is a past event, with custom content"
+    },
+    "is past event with multiline custom markdown content": {
+        "prefix": "ipemd",
+        "body": [
+            "{{% is-past-event %}}",
+            "${1:!custom markdown content}",
+            "{{% /is-past-event %}}$0"
+        ],
+        "description": "to indicate that the event is a past event, with custom markdown content"
+    },
+    "is future event": {
+        "prefix": "ife",
+        "body": "{{< is-future-event />}}$0",
+        "description": "to indicate that the event is a future event"
+    },
+    "is future event with multiline custom content": {
+        "prefix": "ifem",
+        "body": [
+            "{{< is-future-event >}}",
+            "${1:!custom content}",
+            "{{< /is-future-event >}}$0"
+        ],
+        "description": "to indicate that the event is a future event, with custom content"
+    },
+    "is future event with multiline custom markdown content": {
+        "prefix": "ifemd",
+        "body": [
+            "{{% is-future-event %}}",
+            "${1:!custom markdown content}",
+            "{{% /is-future-event %}}$0"
+        ],
+        "description": "to indicate that the event is a future event, with custom markdown content"
+    }
 }
