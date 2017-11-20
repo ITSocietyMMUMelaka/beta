@@ -29,7 +29,7 @@ The event is loreming
 
 <!--more-->
 
-# Details
+## Details
 
 This is another test.
 
