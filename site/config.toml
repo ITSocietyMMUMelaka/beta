@@ -47,3 +47,9 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
  weight = 20
  identifier = "post"
  url = "/post/"
+
+[[menu.main]]
+ name = "Events"
+ weight = 30
+ identifier = "event"
+ url = "/event/"
