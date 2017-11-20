@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on IT Society, MMU Melaka</title>
+    <link>https://itsocietymmumelaka.github.io/beta/tags/</link>
+    <description>Recent content in Tags on IT Society, MMU Melaka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Nov 2017 02:28:56 +0800</lastBuildDate>
+    
+	<atom:link href="https://itsocietymmumelaka.github.io/beta/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Announcement</title>
+      <link>https://itsocietymmumelaka.github.io/beta/tags/announcement/</link>
+      <pubDate>Thu, 16 Nov 2017 02:28:56 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/tags/announcement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://itsocietymmumelaka.github.io/beta/tags/hugo/</link>
+      <pubDate>Wed, 15 Nov 2017 18:08:54 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortcode</title>
+      <link>https://itsocietymmumelaka.github.io/beta/tags/shortcode/</link>
+      <pubDate>Wed, 15 Nov 2017 18:08:54 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/tags/shortcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vscode</title>
+      <link>https://itsocietymmumelaka.github.io/beta/tags/vscode/</link>
+      <pubDate>Wed, 15 Nov 2017 18:08:54 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

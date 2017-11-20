@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vscode on IT Society, MMU Melaka</title>
+    <link>https://itsocietymmumelaka.github.io/beta/tags/vscode/</link>
+    <description>Recent content in Vscode on IT Society, MMU Melaka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Nov 2017 18:08:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://itsocietymmumelaka.github.io/beta/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>https://itsocietymmumelaka.github.io/beta/post/shortcodes/</link>
+      <pubDate>Wed, 15 Nov 2017 18:08:54 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/post/shortcodes/</guid>
+      <description>&lt;p&gt;Documentation on shortcode can be found here: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#readout&#34;&gt;https://gohugo.io/content-management/shortcodes/#readout&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some example shortcodes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{&amp;lt; simple shortcode &amp;gt;}}
+
+{{&amp;lt; shortcode &amp;gt;}}
+    With body
+{{&amp;lt; /shortcode &amp;gt;}}
+
+{{% mdshortcode %}}
+    Stuff to `process` in the *center*.
+{{% /mdshortcode %}}&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

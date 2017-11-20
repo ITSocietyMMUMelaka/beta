@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcement on IT Society, MMU Melaka</title>
+    <link>https://itsocietymmumelaka.github.io/beta/tags/announcement/</link>
+    <description>Recent content in Announcement on IT Society, MMU Melaka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Nov 2017 02:28:56 +0800</lastBuildDate>
+    
+	<atom:link href="https://itsocietymmumelaka.github.io/beta/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Site!</title>
+      <link>https://itsocietymmumelaka.github.io/beta/post/new-site/</link>
+      <pubDate>Thu, 16 Nov 2017 02:28:56 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/post/new-site/</guid>
+      <description>&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;I have spent the past few weeks prototyping the &lt;code&gt;beta&lt;/code&gt; version of the ITSOC website, which is currently available here: &lt;a href=&#34;https://beta.itsociety.club/&#34;&gt;https://beta.itsociety.club/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have a lot more things need to be done &lt;strong&gt;but&lt;/strong&gt; before proceeding, I &lt;strong&gt;sincerely&lt;/strong&gt; need &lt;em&gt;feedbacks&lt;/em&gt; from you guys 🙏🙏🙏&lt;/p&gt;
+
+&lt;p&gt;Visit and poke around the site, don&amp;rsquo;t feel shy to voice out your opinions or suggestions - no matter it&amp;rsquo;s good or bad (like the site is utterly ugly 👎 or the design is a pile of rubbish 🗑️ etc), it&amp;rsquo;s better to say it out so that we can at least make improvements 😁&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

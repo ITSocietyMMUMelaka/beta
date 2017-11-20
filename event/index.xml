@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on IT Society, MMU Melaka</title>
+    <link>https://itsocietymmumelaka.github.io/beta/event/</link>
+    <description>Recent content in Events on IT Society, MMU Melaka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Nov 2017 00:58:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://itsocietymmumelaka.github.io/beta/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing Future Event</title>
+      <link>https://itsocietymmumelaka.github.io/beta/event/testing-future-event/</link>
+      <pubDate>Mon, 20 Nov 2017 00:58:51 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/event/testing-future-event/</guid>
+      <description>&lt;div class=&#34;alert alert-success&#34;&gt;
+    Save the date!
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-success&#34;&gt;
+    &lt;p&gt;&lt;strong&gt;Save the date!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please join!&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-success&#34;&gt;
+    
+
+The event is loreming
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card&#34;&gt;
+    &lt;header class=&#34;card-header&#34;&gt;Event Title&lt;/header&gt;
+    &lt;div class=&#34;card-content&#34;&gt;
+        &lt;div class=&#34;inner&#34;&gt;
+            &lt;table&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Date &amp; Time&lt;/td&gt;
+                        &lt;td&gt;Every asdasd&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Venue&lt;/td&gt;
+                            &lt;td itemprop=&#34;location&#34;&gt;xxx&lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Fees (Member) &lt;/td&gt;
+                            &lt;td itemprop=&#34;price&#34;&gt;RM10&lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+                    
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;Fees (Non-Member) &lt;/td&gt;
+                        &lt;td itemprop=&#34;price&#34;&gt;RM190&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Registration&lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;a itemprop=&#34;url&#34; href=&#34;http://somelink&#34;&gt;http://somelink&lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;Facebook&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;a itemprop=&#34;url&#34; href=&#34;http://facebook.com&#34;&gt;http://facebook.com&lt;/a&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Testing Past Event</title>
+      <link>https://itsocietymmumelaka.github.io/beta/event/testing-past-event/</link>
+      <pubDate>Sun, 19 Nov 2017 22:55:23 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/event/testing-past-event/</guid>
+      <description>&lt;div class=&#34;alert alert-error&#34;&gt;
+    The event has ended!
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-error&#34;&gt;
+    &lt;p&gt;The event has ended!&lt;/p&gt;
+
+&lt;p&gt;Thanks for joining!&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-error&#34;&gt;
+    
+The event is lorem-ed
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card&#34;&gt;
+    &lt;header class=&#34;card-header&#34;&gt;Event Title&lt;/header&gt;
+    &lt;div class=&#34;card-content&#34;&gt;
+        &lt;div class=&#34;inner&#34;&gt;
+            &lt;table&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Date &amp; Time&lt;/td&gt;
+                        &lt;td&gt;Every asdasd&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Venue&lt;/td&gt;
+                            &lt;td itemprop=&#34;location&#34;&gt;xxx&lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Fees (Member) &lt;/td&gt;
+                            &lt;td itemprop=&#34;price&#34;&gt;RM10&lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+                    
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;Fees (Non-Member) &lt;/td&gt;
+                        &lt;td itemprop=&#34;price&#34;&gt;RM190&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Registration&lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;a itemprop=&#34;url&#34; href=&#34;http://somelink&#34;&gt;http://somelink&lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;Facebook&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;a itemprop=&#34;url&#34; href=&#34;http://facebook.com&#34;&gt;http://facebook.com&lt;/a&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;This is another test.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

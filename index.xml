@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT Society, MMU Melaka</title>
+    <link>https://itsocietymmumelaka.github.io/beta/</link>
+    <description>Recent content on IT Society, MMU Melaka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Nov 2017 00:58:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://itsocietymmumelaka.github.io/beta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing Future Event</title>
+      <link>https://itsocietymmumelaka.github.io/beta/event/testing-future-event/</link>
+      <pubDate>Mon, 20 Nov 2017 00:58:51 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/event/testing-future-event/</guid>
+      <description>&lt;div class=&#34;alert alert-success&#34;&gt;
+    Save the date!
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-success&#34;&gt;
+    &lt;p&gt;&lt;strong&gt;Save the date!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please join!&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-success&#34;&gt;
+    
+
+The event is loreming
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card&#34;&gt;
+    &lt;header class=&#34;card-header&#34;&gt;Event Title&lt;/header&gt;
+    &lt;div class=&#34;card-content&#34;&gt;
+        &lt;div class=&#34;inner&#34;&gt;
+            &lt;table&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Date &amp; Time&lt;/td&gt;
+                        &lt;td&gt;Every asdasd&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Venue&lt;/td&gt;
+                            &lt;td itemprop=&#34;location&#34;&gt;xxx&lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Fees (Member) &lt;/td&gt;
+                            &lt;td itemprop=&#34;price&#34;&gt;RM10&lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+                    
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;Fees (Non-Member) &lt;/td&gt;
+                        &lt;td itemprop=&#34;price&#34;&gt;RM190&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Registration&lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;a itemprop=&#34;url&#34; href=&#34;http://somelink&#34;&gt;http://somelink&lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;Facebook&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;a itemprop=&#34;url&#34; href=&#34;http://facebook.com&#34;&gt;http://facebook.com&lt;/a&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Testing Past Event</title>
+      <link>https://itsocietymmumelaka.github.io/beta/event/testing-past-event/</link>
+      <pubDate>Sun, 19 Nov 2017 22:55:23 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/event/testing-past-event/</guid>
+      <description>&lt;div class=&#34;alert alert-error&#34;&gt;
+    The event has ended!
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-error&#34;&gt;
+    &lt;p&gt;The event has ended!&lt;/p&gt;
+
+&lt;p&gt;Thanks for joining!&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-error&#34;&gt;
+    
+The event is lorem-ed
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card&#34;&gt;
+    &lt;header class=&#34;card-header&#34;&gt;Event Title&lt;/header&gt;
+    &lt;div class=&#34;card-content&#34;&gt;
+        &lt;div class=&#34;inner&#34;&gt;
+            &lt;table&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Date &amp; Time&lt;/td&gt;
+                        &lt;td&gt;Every asdasd&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Venue&lt;/td&gt;
+                            &lt;td itemprop=&#34;location&#34;&gt;xxx&lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Fees (Member) &lt;/td&gt;
+                            &lt;td itemprop=&#34;price&#34;&gt;RM10&lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+                    
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;Fees (Non-Member) &lt;/td&gt;
+                        &lt;td itemprop=&#34;price&#34;&gt;RM190&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+
+                    
+                        &lt;tr&gt;
+                            &lt;td&gt;Registration&lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;a itemprop=&#34;url&#34; href=&#34;http://somelink&#34;&gt;http://somelink&lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    
+
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;Facebook&lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;a itemprop=&#34;url&#34; href=&#34;http://facebook.com&#34;&gt;http://facebook.com&lt;/a&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;This is another test.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Images and Gallery</title>
+      <link>https://itsocietymmumelaka.github.io/beta/post/images-and-gallery/</link>
+      <pubDate>Thu, 16 Nov 2017 17:26:20 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/post/images-and-gallery/</guid>
+      <description>&lt;p&gt;This is a simple test of using &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;hugo-easy-gallery&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New Site!</title>
+      <link>https://itsocietymmumelaka.github.io/beta/post/new-site/</link>
+      <pubDate>Thu, 16 Nov 2017 02:28:56 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/post/new-site/</guid>
+      <description>&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;I have spent the past few weeks prototyping the &lt;code&gt;beta&lt;/code&gt; version of the ITSOC website, which is currently available here: &lt;a href=&#34;https://beta.itsociety.club/&#34;&gt;https://beta.itsociety.club/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have a lot more things need to be done &lt;strong&gt;but&lt;/strong&gt; before proceeding, I &lt;strong&gt;sincerely&lt;/strong&gt; need &lt;em&gt;feedbacks&lt;/em&gt; from you guys 🙏🙏🙏&lt;/p&gt;
+
+&lt;p&gt;Visit and poke around the site, don&amp;rsquo;t feel shy to voice out your opinions or suggestions - no matter it&amp;rsquo;s good or bad (like the site is utterly ugly 👎 or the design is a pile of rubbish 🗑️ etc), it&amp;rsquo;s better to say it out so that we can at least make improvements 😁&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>https://itsocietymmumelaka.github.io/beta/post/shortcodes/</link>
+      <pubDate>Wed, 15 Nov 2017 18:08:54 +0800</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/post/shortcodes/</guid>
+      <description>&lt;p&gt;Documentation on shortcode can be found here: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#readout&#34;&gt;https://gohugo.io/content-management/shortcodes/#readout&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some example shortcodes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{&amp;lt; simple shortcode &amp;gt;}}
+
+{{&amp;lt; shortcode &amp;gt;}}
+    With body
+{{&amp;lt; /shortcode &amp;gt;}}
+
+{{% mdshortcode %}}
+    Stuff to `process` in the *center*.
+{{% /mdshortcode %}}&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://itsocietymmumelaka.github.io/beta/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsocietymmumelaka.github.io/beta/readme/</guid>
+      <description>Content Here stores the content of the site.</description>
+    </item>
+    
+  </channel>
+</rss>
