@@ -2,7 +2,7 @@
 title = "Testing Past Event"
 date = 2017-11-19T22:55:23+08:00
 description = "" 
-draft = true
+draft = false
 toc = false
 category = ""
 tags = []
