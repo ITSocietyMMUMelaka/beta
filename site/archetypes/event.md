@@ -2,7 +2,7 @@
 title = "{{ replace (replaceRE "^(?:.*(?:/|\\\\))(.*)(?:/|\\\\)$" "$1" .File.Dir) "-" " " | title }}"
 date = {{ .Date }}
 description = "" 
-draft = true
+draft = false
 category = "event"
 tags = []
 images = [
